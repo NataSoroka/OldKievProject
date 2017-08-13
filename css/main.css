@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+body,
+html {
+  width: 100%;
+  height: 100%; }
+
+.wrapper {
+  width: 1280px;
+  height: 1000px;
+  background-image: url("../img/root-bg.png");
+  background-repeat: no-repeat;
+  background-position: -87px -311px;
+  position: relative;
+  overflow: hidden; }
+  .wrapper .logo {
+    position: absolute;
+    top: 6px;
+    left: 20px;
+    width: 759px;
+    height: 140px;
+    background-image: url("../img/logo.png");
+    background-repeat: no-repeat;
+    background-position: 0 0; }
+  .wrapper .text-1 {
+    position: absolute;
+    top: 129px;
+    left: 522px;
+    width: 667px;
+    height: 189px;
+    background-image: url("../img/text-1.png");
+    background-repeat: no-repeat;
+    background-position: 0 0; }
+  .wrapper .text-2 {
+    position: absolute;
+    top: 705px;
+    left: 582px;
+    width: 711px;
+    height: 237px;
+    background-image: url("../img/text-2.png");
+    background-repeat: no-repeat;
+    background-position: 0 0; }
+  .wrapper .text-3 {
+    position: absolute;
+    top: 343px;
+    left: -13px;
+    width: 387px;
+    height: 337px;
+    background-image: url("../img/text-3.png");
+    background-repeat: no-repeat;
+    background-position: 0 0; }
+  .wrapper .text-4 {
+    position: absolute;
+    top: 865px;
+    left: 1074px;
+    width: 169px;
+    height: 119px;
+    background-image: url("../img/text-4.png");
+    background-repeat: no-repeat;
+    background-position: 0 0; }
+  .wrapper ul {
+    list-style-image: url("../img/marker.png");
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    position: absolute;
+    left: 480px;
+    top: 464px;
+    width: 560px;
+    height: 165px; }
+    .wrapper ul li {
+      height: 35px; }
+      .wrapper ul li .img-1 {
+        position: absolute;
+        top: -5px;
+        left: -3px;
+        width: 448px;
+        height: 31px;
+        background-image: url("../img/menu-text-5.png");
+        background-repeat: no-repeat;
+        background-position: 0 0; }
+      .wrapper ul li .img-2 {
+        position: absolute;
+        top: 28px;
+        left: 6px;
+        width: 334px;
+        height: 31px;
+        background-image: url("../img/menu-text-3.png");
+        background-repeat: no-repeat;
+        background-position: 0 0; }
+      .wrapper ul li .img-3 {
+        position: absolute;
+        top: 61px;
+        left: -2px;
+        width: 372px;
+        height: 31px;
+        background-image: url("../img/menu-text-4.png");
+        background-repeat: no-repeat;
+        background-position: 0 0; }
+      .wrapper ul li .img-4 {
+        position: absolute;
+        top: 93px;
+        left: -2px;
+        width: 385px;
+        height: 31px;
+        background-image: url("../img/menu-text-2.png");
+        background-repeat: no-repeat;
+        background-position: 0 0; }
+      .wrapper ul li .img-5 {
+        position: absolute;
+        top: 126px;
+        left: 6px;
+        width: 334px;
+        height: 31px;
+        background-image: url("../img/menu-text-1.png");
+        background-repeat: no-repeat;
+        background-position: 0 0; }
+  .wrapper .center-btn {
+    position: absolute;
+    top: 415px;
+    left: 407px;
+    width: 560px;
+    height: 252px;
+    background-image: url("../img/center-btn-2.png");
+    background-repeat: no-repeat;
+    background-position: 0 0; }
+  .wrapper .sound-btn {
+    position: absolute;
+    bottom: 37px;
+    right: 36px;
+    cursor: pointer; }
